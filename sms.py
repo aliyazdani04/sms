@@ -11,7 +11,7 @@ pnd = {'cellphone': f'{phonen}'}
 
 while True:
       time.sleep(5)
-      req1 = requests.get(url1)
+      req1 = requests.get(url1, json= pnd)
 
       print(colored('yes', 'red'))
 
