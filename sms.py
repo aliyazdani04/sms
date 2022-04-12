@@ -3,7 +3,7 @@ from termcolor import colored
 import time
 
 phonen = input('phone number: ')
-url2 = 'https://ws.alibaba.ir/api/v3/account/mobile/otp'
+url2 = 'https://app.snapp.taxi/api/api-passenger-oauth/v2/otp'
 
 pnd = {'cellphon': f'{phonen}'}
 
