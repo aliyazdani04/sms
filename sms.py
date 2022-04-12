@@ -11,5 +11,5 @@ while True:
 
       req = requests.post(url, json= pnd)
 
-      print(req.txt)
+      print(colored('yes', 'red')
 
