@@ -8,7 +8,7 @@ url1 = f'https://filmnet.ir/api-v2/access-token/users/{phonen}/otp'
 
 pnd = {'cellphon': f'{phonen}'}
 
-whil true:
+while true:
       time.sleep(2)
       req = requests.post(url, json=pnd)
       req1 = requests.get(url1)
