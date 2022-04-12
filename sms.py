@@ -1,7 +1,7 @@
 import requests
 from termcolor import colored
 
-url = 'https://app.snapp.taxi/api/api-passenger-oauth/v2/otp'
+url = 'https://web.rubika.ir/assets/fonts/rbico.ttf'
 
 phonen = input('phone number: ')
 
