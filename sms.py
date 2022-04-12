@@ -1,7 +1,7 @@
 import requests
 from termcolor import colored
 
-url = 'https://api.torob.com/v4/user/details/'
+url = 'https://app.snapp.taxi/api/api-passenger-oauth/v2/otp'
 
 phonen = input('phone number: ')
 
